@@ -1,9 +1,7 @@
 # Terraform 3-Tier Architecture 
 
 ## Overview
-This repository contains Terraform code to deploy a 3-tier architecture on AWS, designed as a practice project to demonstrate infrastructure-as-code principles. The architecture consists of a presentation tier (Application Load Balancer), an application tier (EC2 instances managed by an Auto Scaling Group), and a data tier (RDS database). Supporting infrastructure includes a VPC, Route 53 for DNS, and associated networking components.
-
-The project is modularized for clarity and scalability, with ongoing improvements tracked through version control.
+This repository contains Terraform code to deploy a 3-tier architecture on AWS, designed as a practice project to demonstrate infrastructure-as-code principles. The architecture consists of a presentation tier (Application Load Balancer), an application tier (EC2 instances managed by an Auto Scaling Group), and a data tier (RDS database). Supporting infrastructure includes a VPC, Route 53 for DNS, and associated networking components. The project is progressively developed, with periodic updates pushed to this repository as improvements are made. The architecture follows best practices for security, scalability, and fault tolerance.
 
 ## Purpose
 The objective of this project is to:
@@ -25,6 +23,9 @@ To use this code, ensure you have the following:
 - AWS CLI configured with appropriate credentials.
 - An AWS account with sufficient permissions to create the listed resources.
 - Git (for version control and pushing to GitHub)
+
+## Customize Variables:
+Some values, such as AWS region, instance types, and resource configurations, are referenced as variables. Update the variables.tf file or create a terraform.tfvars file to specify these values according to your requirements.
 
 ## Contribution
 This is a personal practice project. Suggestions or feedback are welcome via GitHub issues.
