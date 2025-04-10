@@ -24,6 +24,14 @@ To use this code, ensure you have the following:
 - An AWS account with sufficient permissions to create the listed resources.
 - Git (for version control and pushing to GitHub)
 
+## Progress and Updates
+This project is a work in progress. Updates will be committed periodically as the architecture evolves. Key milestones include:
+- Initial setup of VPC module
+- Integration of ALB and ASG for scalability
+- EC2 module for instances
+- Addition of RDS and Route 53 for a complete 3-tier setup
+- Optimization and security enhancements
+
 ## Customize Variables:
 Some values, such as AWS region, instance types, and resource configurations, are referenced as variables. Update the variables.tf file or create a terraform.tfvars file to specify these values according to your requirements.
 
